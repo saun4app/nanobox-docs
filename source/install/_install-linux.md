@@ -8,6 +8,20 @@ The Nanobox installer can be downloaded from the [Nanobox download page in your 
 ## Run the Nanobox Installer
 Once you've downloaded the Nanobox installer, run it and it will walk you through the entire installation process.
 
+## Install Nanobox
+
+At your download directory, run the following:
+
+```
+dpkg -i nanobox_2_amd64.deb
+nanobox configure
+nanobox version
+```
+
+You should see `nanobox` version information on the console screen.  You are ready to [create your first](https://guides.nanobox.io/) `nanobox` app. 
+
+Please note that your actual download file name may be slitly differnt from `nanobox_2_amd64.deb`.
+
 ## Configure Nanobox _(Optional)_
 Before you fire up your first project with Nanobox, there are some config options you need or may want to set. The [`nanobox configure`/ `nanobox config`](/cli/configure/) command will walk you through a setup process that gathers required information for your [local Nanobox configuration](/local-config/configure-nanobox/). This process gets triggered automatically the first time you try to start Nanobox.
 
